@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0986EB58-A2ED-4430-8C0A-036764F4C56E"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "66EF8156-40D6-4D41-B649-07A5BB3F81B6"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Globex-FinalProject-AmarnathKathiresan/NewsTableTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "119"
+            endingLineNumber = "119"
+            landmarkName = "saveToUserDefaults()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "66EF8156-40D6-4D41-B649-07A5BB3F81B6 - b263450ecdb55a87"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Globex_FinalProject_AmarnathKathiresan.NewsTableTableViewController.saveToUserDefaults() -&gt; ()"
+                  moduleName = "Globex-FinalProject-AmarnathKathiresan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amarnathkathiresan/Desktop/IOS%20CLASS/Week15/Globex-FinalProject-AmarnathKathiresan/Globex-FinalProject-AmarnathKathiresan/NewsTableTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "60">
+               </Location>
+               <Location
+                  uuid = "66EF8156-40D6-4D41-B649-07A5BB3F81B6 - 474ec01e39b7eaec"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Globex_FinalProject_AmarnathKathiresan.NewsTableTableViewController.News) -&gt; Swift.Dictionary&lt;Swift.String, Swift.String&gt; in Globex_FinalProject_AmarnathKathiresan.NewsTableTableViewController.saveToUserDefaults() -&gt; ()"
+                  moduleName = "Globex-FinalProject-AmarnathKathiresan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amarnathkathiresan/Desktop/IOS%20CLASS/Week15/Globex-FinalProject-AmarnathKathiresan/Globex-FinalProject-AmarnathKathiresan/NewsTableTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "119"
+                  endingLineNumber = "119"
+                  offsetFromSymbolStart = "112">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CF4E0B61-CEF6-4889-B858-88C5F9C6CC50"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Globex-FinalProject-AmarnathKathiresan/HistoryTableTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "815C9DDE-874B-4D61-8092-35163822C96D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Globex-FinalProject-AmarnathKathiresan/HistoryTableTableViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "47"
+            endingLineNumber = "47"
+            landmarkName = "loadNewsFromUserDefaults()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "815C9DDE-874B-4D61-8092-35163822C96D - ea99dc06111e1e1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Globex_FinalProject_AmarnathKathiresan.HistoryTableTableViewController.loadNewsFromUserDefaults() -&gt; Swift.Array&lt;Globex_FinalProject_AmarnathKathiresan.NewsTableTableViewController.News&gt;"
+                  moduleName = "Globex-FinalProject-AmarnathKathiresan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amarnathkathiresan/Desktop/IOS%20CLASS/Week15/Globex-FinalProject-AmarnathKathiresan/Globex-FinalProject-AmarnathKathiresan/HistoryTableTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "88">
+               </Location>
+               <Location
+                  uuid = "815C9DDE-874B-4D61-8092-35163822C96D - ea99dc06111e1e1d"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Globex_FinalProject_AmarnathKathiresan.HistoryTableTableViewController.loadNewsFromUserDefaults() -&gt; Swift.Array&lt;Globex_FinalProject_AmarnathKathiresan.NewsTableTableViewController.News&gt;"
+                  moduleName = "Globex-FinalProject-AmarnathKathiresan"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/amarnathkathiresan/Desktop/IOS%20CLASS/Week15/Globex-FinalProject-AmarnathKathiresan/Globex-FinalProject-AmarnathKathiresan/HistoryTableTableViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "47"
+                  endingLineNumber = "47"
+                  offsetFromSymbolStart = "468">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,729 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		720F89EF2B264B180047DEF4 /* cloudHailAltSun.svg in Resources */ = {isa = PBXBuildFile; fileRef = 720F89DE2B264B180047DEF4 /* cloudHailAltSun.svg */; };
+		720F89F02B264B180047DEF4 /* cloudSnowMoonAlt.svg in Resources */ = {isa = PBXBuildFile; fileRef = 720F89DF2B264B180047DEF4 /* cloudSnowMoonAlt.svg */; };
+		720F89F12B264B180047DEF4 /* cloudSun.svg in Resources */ = {isa = PBXBuildFile; fileRef = 720F89E02B264B180047DEF4 /* cloudSun.svg */; };
+		720F89F22B264B180047DEF4 /* wind.svg in Resources */ = {isa = PBXBuildFile; fileRef = 720F89E12B264B180047DEF4 /* wind.svg */; };
+		720F89F32B264B180047DEF4 /* cloudDrizzleMoonAlt.svg in Resources */ = {isa = PBXBuildFile; fileRef = 720F89E22B264B180047DEF4 /* cloudDrizzleMoonAlt.svg */; };
+		720F89F42B264B180047DEF4 /* cloudLightningMoon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 720F89E32B264B180047DEF4 /* cloudLightningMoon.svg */; };
+		720F89F52B264B180047DEF4 /* sunsetAlt.svg in Resources */ = {isa = PBXBuildFile; fileRef = 720F89E42B264B180047DEF4 /* sunsetAlt.svg */; };
+		720F89F62B264B180047DEF4 /* sunriseAlt.svg in Resources */ = {isa = PBXBuildFile; fileRef = 720F89E52B264B180047DEF4 /* sunriseAlt.svg */; };
+		720F89F72B264B180047DEF4 /* cloudLightningSun.svg in Resources */ = {isa = PBXBuildFile; fileRef = 720F89E62B264B180047DEF4 /* cloudLightningSun.svg */; };
+		720F89F82B264B180047DEF4 /* cloudSnowSunAlt.svg in Resources */ = {isa = PBXBuildFile; fileRef = 720F89E72B264B180047DEF4 /* cloudSnowSunAlt.svg */; };
+		720F89F92B264B180047DEF4 /* cloudFogMoonAlt.svg in Resources */ = {isa = PBXBuildFile; fileRef = 720F89E82B264B180047DEF4 /* cloudFogMoonAlt.svg */; };
+		720F89FA2B264B180047DEF4 /* moon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 720F89E92B264B180047DEF4 /* moon.svg */; };
+		720F89FB2B264B180047DEF4 /* cloudRainSunAlt.svg in Resources */ = {isa = PBXBuildFile; fileRef = 720F89EA2B264B180047DEF4 /* cloudRainSunAlt.svg */; };
+		720F89FC2B264B180047DEF4 /* cloudFogSunAlt.svg in Resources */ = {isa = PBXBuildFile; fileRef = 720F89EB2B264B180047DEF4 /* cloudFogSunAlt.svg */; };
+		720F89FD2B264B180047DEF4 /* cloudRainMoonAlt.svg in Resources */ = {isa = PBXBuildFile; fileRef = 720F89EC2B264B180047DEF4 /* cloudRainMoonAlt.svg */; };
+		720F89FE2B264B180047DEF4 /* cloudDrizzleSunAlt.svg in Resources */ = {isa = PBXBuildFile; fileRef = 720F89ED2B264B180047DEF4 /* cloudDrizzleSunAlt.svg */; };
+		720F89FF2B264B180047DEF4 /* cloudMoon.svg in Resources */ = {isa = PBXBuildFile; fileRef = 720F89EE2B264B180047DEF4 /* cloudMoon.svg */; };
+		720F8A032B264BBD0047DEF4 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F8A022B264BBD0047DEF4 /* WeatherViewController.swift */; };
+		720F8A052B2650E30047DEF4 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F8A042B2650E30047DEF4 /* WeatherData.swift */; };
+		720F8A092B2655570047DEF4 /* GlobexHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F8A082B2655570047DEF4 /* GlobexHomeViewController.swift */; };
+		720F8A0F2B26AF1E0047DEF4 /* HistoryTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F8A0E2B26AF1E0047DEF4 /* HistoryTableTableViewController.swift */; };
+		720F8A112B27DA8C0047DEF4 /* DirectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720F8A102B27DA8C0047DEF4 /* DirectionViewController.swift */; };
+		725AB2562B2252760003A870 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725AB2552B2252760003A870 /* AppDelegate.swift */; };
+		725AB2582B2252760003A870 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725AB2572B2252760003A870 /* SceneDelegate.swift */; };
+		725AB25D2B2252760003A870 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725AB25B2B2252760003A870 /* Main.storyboard */; };
+		725AB2602B2252760003A870 /* Globex_FinalProject_AmarnathKathiresan.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 725AB25E2B2252760003A870 /* Globex_FinalProject_AmarnathKathiresan.xcdatamodeld */; };
+		725AB2622B2252770003A870 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 725AB2612B2252770003A870 /* Assets.xcassets */; };
+		725AB2652B2252770003A870 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 725AB2632B2252770003A870 /* LaunchScreen.storyboard */; };
+		725AB2702B2252770003A870 /* Globex_FinalProject_AmarnathKathiresanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725AB26F2B2252770003A870 /* Globex_FinalProject_AmarnathKathiresanTests.swift */; };
+		725AB27A2B2252770003A870 /* Globex_FinalProject_AmarnathKathiresanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725AB2792B2252770003A870 /* Globex_FinalProject_AmarnathKathiresanUITests.swift */; };
+		725AB27C2B2252770003A870 /* Globex_FinalProject_AmarnathKathiresanUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 725AB27B2B2252770003A870 /* Globex_FinalProject_AmarnathKathiresanUITestsLaunchTests.swift */; };
+		72605F252B27F30D003834E8 /* NewsTableTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72605F242B27F30D003834E8 /* NewsTableTableViewController.swift */; };
+		72605F272B27F73C003834E8 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72605F262B27F73C003834E8 /* NewsTableViewCell.swift */; };
+		72605F292B281BB8003834E8 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72605F282B281BB8003834E8 /* HistoryTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		725AB26C2B2252770003A870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 725AB24A2B2252760003A870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 725AB2512B2252760003A870;
+			remoteInfo = "Globex-FinalProject-AmarnathKathiresan";
+		};
+		725AB2762B2252770003A870 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 725AB24A2B2252760003A870 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 725AB2512B2252760003A870;
+			remoteInfo = "Globex-FinalProject-AmarnathKathiresan";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		720F89DE2B264B180047DEF4 /* cloudHailAltSun.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cloudHailAltSun.svg; sourceTree = "<group>"; };
+		720F89DF2B264B180047DEF4 /* cloudSnowMoonAlt.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cloudSnowMoonAlt.svg; sourceTree = "<group>"; };
+		720F89E02B264B180047DEF4 /* cloudSun.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cloudSun.svg; sourceTree = "<group>"; };
+		720F89E12B264B180047DEF4 /* wind.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = wind.svg; sourceTree = "<group>"; };
+		720F89E22B264B180047DEF4 /* cloudDrizzleMoonAlt.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cloudDrizzleMoonAlt.svg; sourceTree = "<group>"; };
+		720F89E32B264B180047DEF4 /* cloudLightningMoon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cloudLightningMoon.svg; sourceTree = "<group>"; };
+		720F89E42B264B180047DEF4 /* sunsetAlt.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sunsetAlt.svg; sourceTree = "<group>"; };
+		720F89E52B264B180047DEF4 /* sunriseAlt.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sunriseAlt.svg; sourceTree = "<group>"; };
+		720F89E62B264B180047DEF4 /* cloudLightningSun.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cloudLightningSun.svg; sourceTree = "<group>"; };
+		720F89E72B264B180047DEF4 /* cloudSnowSunAlt.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cloudSnowSunAlt.svg; sourceTree = "<group>"; };
+		720F89E82B264B180047DEF4 /* cloudFogMoonAlt.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cloudFogMoonAlt.svg; sourceTree = "<group>"; };
+		720F89E92B264B180047DEF4 /* moon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = moon.svg; sourceTree = "<group>"; };
+		720F89EA2B264B180047DEF4 /* cloudRainSunAlt.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cloudRainSunAlt.svg; sourceTree = "<group>"; };
+		720F89EB2B264B180047DEF4 /* cloudFogSunAlt.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cloudFogSunAlt.svg; sourceTree = "<group>"; };
+		720F89EC2B264B180047DEF4 /* cloudRainMoonAlt.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cloudRainMoonAlt.svg; sourceTree = "<group>"; };
+		720F89ED2B264B180047DEF4 /* cloudDrizzleSunAlt.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cloudDrizzleSunAlt.svg; sourceTree = "<group>"; };
+		720F89EE2B264B180047DEF4 /* cloudMoon.svg */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = cloudMoon.svg; sourceTree = "<group>"; };
+		720F8A022B264BBD0047DEF4 /* WeatherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewController.swift; sourceTree = "<group>"; };
+		720F8A042B2650E30047DEF4 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		720F8A082B2655570047DEF4 /* GlobexHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobexHomeViewController.swift; sourceTree = "<group>"; };
+		720F8A0E2B26AF1E0047DEF4 /* HistoryTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableTableViewController.swift; sourceTree = "<group>"; };
+		720F8A102B27DA8C0047DEF4 /* DirectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionViewController.swift; sourceTree = "<group>"; };
+		725AB2522B2252760003A870 /* Globex-FinalProject-AmarnathKathiresan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Globex-FinalProject-AmarnathKathiresan.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		725AB2552B2252760003A870 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		725AB2572B2252760003A870 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		725AB25C2B2252760003A870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		725AB25F2B2252760003A870 /* Globex_FinalProject_AmarnathKathiresan.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Globex_FinalProject_AmarnathKathiresan.xcdatamodel; sourceTree = "<group>"; };
+		725AB2612B2252770003A870 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		725AB2642B2252770003A870 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		725AB2662B2252770003A870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		725AB26B2B2252770003A870 /* Globex-FinalProject-AmarnathKathiresanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Globex-FinalProject-AmarnathKathiresanTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		725AB26F2B2252770003A870 /* Globex_FinalProject_AmarnathKathiresanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globex_FinalProject_AmarnathKathiresanTests.swift; sourceTree = "<group>"; };
+		725AB2752B2252770003A870 /* Globex-FinalProject-AmarnathKathiresanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Globex-FinalProject-AmarnathKathiresanUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		725AB2792B2252770003A870 /* Globex_FinalProject_AmarnathKathiresanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globex_FinalProject_AmarnathKathiresanUITests.swift; sourceTree = "<group>"; };
+		725AB27B2B2252770003A870 /* Globex_FinalProject_AmarnathKathiresanUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Globex_FinalProject_AmarnathKathiresanUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		72605F242B27F30D003834E8 /* NewsTableTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableTableViewController.swift; sourceTree = "<group>"; };
+		72605F262B27F73C003834E8 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		72605F282B281BB8003834E8 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		725AB24F2B2252760003A870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725AB2682B2252770003A870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725AB2722B2252770003A870 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		725AB2492B2252760003A870 = {
+			isa = PBXGroup;
+			children = (
+				725AB2542B2252760003A870 /* Globex-FinalProject-AmarnathKathiresan */,
+				725AB26E2B2252770003A870 /* Globex-FinalProject-AmarnathKathiresanTests */,
+				725AB2782B2252770003A870 /* Globex-FinalProject-AmarnathKathiresanUITests */,
+				725AB2532B2252760003A870 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		725AB2532B2252760003A870 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				725AB2522B2252760003A870 /* Globex-FinalProject-AmarnathKathiresan.app */,
+				725AB26B2B2252770003A870 /* Globex-FinalProject-AmarnathKathiresanTests.xctest */,
+				725AB2752B2252770003A870 /* Globex-FinalProject-AmarnathKathiresanUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		725AB2542B2252760003A870 /* Globex-FinalProject-AmarnathKathiresan */ = {
+			isa = PBXGroup;
+			children = (
+				725AB2552B2252760003A870 /* AppDelegate.swift */,
+				725AB2572B2252760003A870 /* SceneDelegate.swift */,
+				72605F262B27F73C003834E8 /* NewsTableViewCell.swift */,
+				720F8A082B2655570047DEF4 /* GlobexHomeViewController.swift */,
+				725AB25B2B2252760003A870 /* Main.storyboard */,
+				720F8A102B27DA8C0047DEF4 /* DirectionViewController.swift */,
+				720F8A0E2B26AF1E0047DEF4 /* HistoryTableTableViewController.swift */,
+				72605F282B281BB8003834E8 /* HistoryTableViewCell.swift */,
+				72605F242B27F30D003834E8 /* NewsTableTableViewController.swift */,
+				725AB2612B2252770003A870 /* Assets.xcassets */,
+				720F8A022B264BBD0047DEF4 /* WeatherViewController.swift */,
+				725AB2632B2252770003A870 /* LaunchScreen.storyboard */,
+				725AB2662B2252770003A870 /* Info.plist */,
+				720F89E22B264B180047DEF4 /* cloudDrizzleMoonAlt.svg */,
+				720F89ED2B264B180047DEF4 /* cloudDrizzleSunAlt.svg */,
+				720F89E82B264B180047DEF4 /* cloudFogMoonAlt.svg */,
+				720F89EB2B264B180047DEF4 /* cloudFogSunAlt.svg */,
+				720F89DE2B264B180047DEF4 /* cloudHailAltSun.svg */,
+				720F89E32B264B180047DEF4 /* cloudLightningMoon.svg */,
+				720F89E62B264B180047DEF4 /* cloudLightningSun.svg */,
+				720F89EE2B264B180047DEF4 /* cloudMoon.svg */,
+				720F89EC2B264B180047DEF4 /* cloudRainMoonAlt.svg */,
+				720F89EA2B264B180047DEF4 /* cloudRainSunAlt.svg */,
+				720F89DF2B264B180047DEF4 /* cloudSnowMoonAlt.svg */,
+				720F89E72B264B180047DEF4 /* cloudSnowSunAlt.svg */,
+				720F89E02B264B180047DEF4 /* cloudSun.svg */,
+				720F89E92B264B180047DEF4 /* moon.svg */,
+				720F89E52B264B180047DEF4 /* sunriseAlt.svg */,
+				720F89E42B264B180047DEF4 /* sunsetAlt.svg */,
+				720F89E12B264B180047DEF4 /* wind.svg */,
+				725AB25E2B2252760003A870 /* Globex_FinalProject_AmarnathKathiresan.xcdatamodeld */,
+				720F8A042B2650E30047DEF4 /* WeatherData.swift */,
+			);
+			path = "Globex-FinalProject-AmarnathKathiresan";
+			sourceTree = "<group>";
+		};
+		725AB26E2B2252770003A870 /* Globex-FinalProject-AmarnathKathiresanTests */ = {
+			isa = PBXGroup;
+			children = (
+				725AB26F2B2252770003A870 /* Globex_FinalProject_AmarnathKathiresanTests.swift */,
+			);
+			path = "Globex-FinalProject-AmarnathKathiresanTests";
+			sourceTree = "<group>";
+		};
+		725AB2782B2252770003A870 /* Globex-FinalProject-AmarnathKathiresanUITests */ = {
+			isa = PBXGroup;
+			children = (
+				725AB2792B2252770003A870 /* Globex_FinalProject_AmarnathKathiresanUITests.swift */,
+				725AB27B2B2252770003A870 /* Globex_FinalProject_AmarnathKathiresanUITestsLaunchTests.swift */,
+			);
+			path = "Globex-FinalProject-AmarnathKathiresanUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		725AB2512B2252760003A870 /* Globex-FinalProject-AmarnathKathiresan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725AB27F2B2252770003A870 /* Build configuration list for PBXNativeTarget "Globex-FinalProject-AmarnathKathiresan" */;
+			buildPhases = (
+				725AB24E2B2252760003A870 /* Sources */,
+				725AB24F2B2252760003A870 /* Frameworks */,
+				725AB2502B2252760003A870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Globex-FinalProject-AmarnathKathiresan";
+			productName = "Globex-FinalProject-AmarnathKathiresan";
+			productReference = 725AB2522B2252760003A870 /* Globex-FinalProject-AmarnathKathiresan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		725AB26A2B2252770003A870 /* Globex-FinalProject-AmarnathKathiresanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725AB2822B2252770003A870 /* Build configuration list for PBXNativeTarget "Globex-FinalProject-AmarnathKathiresanTests" */;
+			buildPhases = (
+				725AB2672B2252770003A870 /* Sources */,
+				725AB2682B2252770003A870 /* Frameworks */,
+				725AB2692B2252770003A870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				725AB26D2B2252770003A870 /* PBXTargetDependency */,
+			);
+			name = "Globex-FinalProject-AmarnathKathiresanTests";
+			productName = "Globex-FinalProject-AmarnathKathiresanTests";
+			productReference = 725AB26B2B2252770003A870 /* Globex-FinalProject-AmarnathKathiresanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		725AB2742B2252770003A870 /* Globex-FinalProject-AmarnathKathiresanUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 725AB2852B2252770003A870 /* Build configuration list for PBXNativeTarget "Globex-FinalProject-AmarnathKathiresanUITests" */;
+			buildPhases = (
+				725AB2712B2252770003A870 /* Sources */,
+				725AB2722B2252770003A870 /* Frameworks */,
+				725AB2732B2252770003A870 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				725AB2772B2252770003A870 /* PBXTargetDependency */,
+			);
+			name = "Globex-FinalProject-AmarnathKathiresanUITests";
+			productName = "Globex-FinalProject-AmarnathKathiresanUITests";
+			productReference = 725AB2752B2252770003A870 /* Globex-FinalProject-AmarnathKathiresanUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		725AB24A2B2252760003A870 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					725AB2512B2252760003A870 = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+					725AB26A2B2252770003A870 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 725AB2512B2252760003A870;
+					};
+					725AB2742B2252770003A870 = {
+						CreatedOnToolsVersion = 15.0.1;
+						TestTargetID = 725AB2512B2252760003A870;
+					};
+				};
+			};
+			buildConfigurationList = 725AB24D2B2252760003A870 /* Build configuration list for PBXProject "Globex-FinalProject-AmarnathKathiresan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 725AB2492B2252760003A870;
+			productRefGroup = 725AB2532B2252760003A870 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				725AB2512B2252760003A870 /* Globex-FinalProject-AmarnathKathiresan */,
+				725AB26A2B2252770003A870 /* Globex-FinalProject-AmarnathKathiresanTests */,
+				725AB2742B2252770003A870 /* Globex-FinalProject-AmarnathKathiresanUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		725AB2502B2252760003A870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725AB2652B2252770003A870 /* LaunchScreen.storyboard in Resources */,
+				720F89F42B264B180047DEF4 /* cloudLightningMoon.svg in Resources */,
+				720F89F92B264B180047DEF4 /* cloudFogMoonAlt.svg in Resources */,
+				720F89F82B264B180047DEF4 /* cloudSnowSunAlt.svg in Resources */,
+				720F89FE2B264B180047DEF4 /* cloudDrizzleSunAlt.svg in Resources */,
+				720F89F12B264B180047DEF4 /* cloudSun.svg in Resources */,
+				720F89FC2B264B180047DEF4 /* cloudFogSunAlt.svg in Resources */,
+				720F89F32B264B180047DEF4 /* cloudDrizzleMoonAlt.svg in Resources */,
+				720F89F62B264B180047DEF4 /* sunriseAlt.svg in Resources */,
+				720F89FA2B264B180047DEF4 /* moon.svg in Resources */,
+				720F89F52B264B180047DEF4 /* sunsetAlt.svg in Resources */,
+				720F89FB2B264B180047DEF4 /* cloudRainSunAlt.svg in Resources */,
+				720F89EF2B264B180047DEF4 /* cloudHailAltSun.svg in Resources */,
+				720F89F22B264B180047DEF4 /* wind.svg in Resources */,
+				720F89F72B264B180047DEF4 /* cloudLightningSun.svg in Resources */,
+				720F89FF2B264B180047DEF4 /* cloudMoon.svg in Resources */,
+				720F89F02B264B180047DEF4 /* cloudSnowMoonAlt.svg in Resources */,
+				720F89FD2B264B180047DEF4 /* cloudRainMoonAlt.svg in Resources */,
+				725AB2622B2252770003A870 /* Assets.xcassets in Resources */,
+				725AB25D2B2252760003A870 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725AB2692B2252770003A870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725AB2732B2252770003A870 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		725AB24E2B2252760003A870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				720F8A032B264BBD0047DEF4 /* WeatherViewController.swift in Sources */,
+				72605F252B27F30D003834E8 /* NewsTableTableViewController.swift in Sources */,
+				72605F272B27F73C003834E8 /* NewsTableViewCell.swift in Sources */,
+				725AB2602B2252760003A870 /* Globex_FinalProject_AmarnathKathiresan.xcdatamodeld in Sources */,
+				720F8A0F2B26AF1E0047DEF4 /* HistoryTableTableViewController.swift in Sources */,
+				725AB2562B2252760003A870 /* AppDelegate.swift in Sources */,
+				720F8A052B2650E30047DEF4 /* WeatherData.swift in Sources */,
+				725AB2582B2252760003A870 /* SceneDelegate.swift in Sources */,
+				72605F292B281BB8003834E8 /* HistoryTableViewCell.swift in Sources */,
+				720F8A112B27DA8C0047DEF4 /* DirectionViewController.swift in Sources */,
+				720F8A092B2655570047DEF4 /* GlobexHomeViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725AB2672B2252770003A870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725AB2702B2252770003A870 /* Globex_FinalProject_AmarnathKathiresanTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		725AB2712B2252770003A870 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				725AB27C2B2252770003A870 /* Globex_FinalProject_AmarnathKathiresanUITestsLaunchTests.swift in Sources */,
+				725AB27A2B2252770003A870 /* Globex_FinalProject_AmarnathKathiresanUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		725AB26D2B2252770003A870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 725AB2512B2252760003A870 /* Globex-FinalProject-AmarnathKathiresan */;
+			targetProxy = 725AB26C2B2252770003A870 /* PBXContainerItemProxy */;
+		};
+		725AB2772B2252770003A870 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 725AB2512B2252760003A870 /* Globex-FinalProject-AmarnathKathiresan */;
+			targetProxy = 725AB2762B2252770003A870 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		725AB25B2B2252760003A870 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				725AB25C2B2252760003A870 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		725AB2632B2252770003A870 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				725AB2642B2252770003A870 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		725AB27D2B2252770003A870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		725AB27E2B2252770003A870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		725AB2802B2252770003A870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BMFQ592JR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Globex-FinalProject-AmarnathKathiresan/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Conestogac.Globex-FinalProject-AmarnathKathiresan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		725AB2812B2252770003A870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BMFQ592JR;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Globex-FinalProject-AmarnathKathiresan/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Conestogac.Globex-FinalProject-AmarnathKathiresan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		725AB2832B2252770003A870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BMFQ592JR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Conestogac.Globex-FinalProject-AmarnathKathiresanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Globex-FinalProject-AmarnathKathiresan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Globex-FinalProject-AmarnathKathiresan";
+			};
+			name = Debug;
+		};
+		725AB2842B2252770003A870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BMFQ592JR;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Conestogac.Globex-FinalProject-AmarnathKathiresanTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Globex-FinalProject-AmarnathKathiresan.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Globex-FinalProject-AmarnathKathiresan";
+			};
+			name = Release;
+		};
+		725AB2862B2252770003A870 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BMFQ592JR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Conestogac.Globex-FinalProject-AmarnathKathiresanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Globex-FinalProject-AmarnathKathiresan";
+			};
+			name = Debug;
+		};
+		725AB2872B2252770003A870 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2BMFQ592JR;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Conestogac.Globex-FinalProject-AmarnathKathiresanUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Globex-FinalProject-AmarnathKathiresan";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		725AB24D2B2252760003A870 /* Build configuration list for PBXProject "Globex-FinalProject-AmarnathKathiresan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725AB27D2B2252770003A870 /* Debug */,
+				725AB27E2B2252770003A870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725AB27F2B2252770003A870 /* Build configuration list for PBXNativeTarget "Globex-FinalProject-AmarnathKathiresan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725AB2802B2252770003A870 /* Debug */,
+				725AB2812B2252770003A870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725AB2822B2252770003A870 /* Build configuration list for PBXNativeTarget "Globex-FinalProject-AmarnathKathiresanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725AB2832B2252770003A870 /* Debug */,
+				725AB2842B2252770003A870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		725AB2852B2252770003A870 /* Build configuration list for PBXNativeTarget "Globex-FinalProject-AmarnathKathiresanUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				725AB2862B2252770003A870 /* Debug */,
+				725AB2872B2252770003A870 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		725AB25E2B2252760003A870 /* Globex_FinalProject_AmarnathKathiresan.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				725AB25F2B2252760003A870 /* Globex_FinalProject_AmarnathKathiresan.xcdatamodel */,
+			);
+			currentVersion = 725AB25F2B2252760003A870 /* Globex_FinalProject_AmarnathKathiresan.xcdatamodel */;
+			path = Globex_FinalProject_AmarnathKathiresan.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 725AB24A2B2252760003A870 /* Project object */;
+}
